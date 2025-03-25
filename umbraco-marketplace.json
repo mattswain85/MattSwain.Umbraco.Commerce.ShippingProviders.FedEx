@@ -10,8 +10,8 @@
   "LicenseTypes": [
     "Free"
   ],
-  "DocumentationUrl": "https://github.com/mattswain85/Umbraco.Commerce.ShippingProviders.FedEx/",
-  "IssueTrackerUrl": "https://github.com/mattswain85/Umbraco.Commerce.ShippingProviders.FedEx/issues",
+  "DocumentationUrl": "https://github.com/mattswain85/MattSwain.Umbraco.Commerce.ShippingProviders.FedEx/",
+  "IssueTrackerUrl": "https://github.com/mattswain85/MattSwain.Umbraco.Commerce.ShippingProviders.FedEx/issues/",
   "PackageType": "Package",
   "RelatedPackages": [
     {
