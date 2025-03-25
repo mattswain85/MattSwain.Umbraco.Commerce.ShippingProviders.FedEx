@@ -33,6 +33,13 @@ namespace MattSwain.Umbraco.Commerce.ShippingProviders.FedEx
             }
 
             var orderCurrency = await Context.Services.CurrencyService.GetCurrencyAsync(context.Order.CurrencyId);
+            var orderStore = await Context.Services.StoreService.GetStoreAsync(context.Order.StoreId);
+
+            if (orderStore == null)
+            {
+                logger.Debug("Unable to calculate realtime Fedex rates as the store provided is invalid");
+                return ShippingRatesResult.Empty;
+            }
 
             var client = FedExExpressClient.Create(httpClientFactory, context.Settings, cache);
 
@@ -71,7 +78,7 @@ namespace MattSwain.Umbraco.Commerce.ShippingProviders.FedEx
                 {
                     Weight = new Weight()
                     {
-                        Units = "KG",
+                        Units = orderStore.MeasurementSystem == MeasurementSystem.Metric ? "KG" : "LB",
                         Value = package.Weight.ToString("0")
                     },
 

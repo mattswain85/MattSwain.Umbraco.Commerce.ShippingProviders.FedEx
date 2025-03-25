@@ -1,7 +1,7 @@
 {
   "id": "MattSwain.Umbraco.Commerce.ShippingProviders.FedEx",
   "name": "FedEx shipping provider for Umbraco Commerce",
-  "version": "0.0.1",
+  "version": "15.0.0",
   "allowPackageTelemetry": true,
   "extensions": [
     {
