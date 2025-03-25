@@ -1,0 +1,18 @@
+{
+  "id": "MattSwain.Umbraco.Commerce.ShippingProviders.FedEx",
+  "name": "FedEx shipping provider for Umbraco Commerce",
+  "version": "0.0.1",
+  "allowPackageTelemetry": true,
+  "extensions": [
+    {
+      "type": "localization",
+      "alias": "Uc.ShippingProviders.FedEx.Localization.En",
+      "weight": -100,
+      "name": "English",
+      "meta": {
+        "culture": "en"
+      },
+      "js": "/App_Plugins/UmbracoCommerceShippingProvidersFedEx/lang/en.js"
+    }
+  ]
+}

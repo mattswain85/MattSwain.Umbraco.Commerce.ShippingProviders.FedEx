@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Umbraco.Commerce.Core" Version="[15.0.0, 15.999.999)" />
+    <PackageVersion Include="Microsoft.Extensions.Http" Version="[9.0.0, 10)" />
+  </ItemGroup>
+</Project>

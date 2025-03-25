@@ -1,0 +1,31 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "AuthorDetails": {
+    "Name": "Matt Swain",
+    "Description": "I am currently operating as a freelance .NET developer Contractor. Specialising in Umbraco and Kentico development",
+    "Url": "https://uk.linkedin.com/in/mattswain85",
+    "ImageUrl": "https://avatars.githubusercontent.com/u/20062960?s=200&v=4"
+  },
+  "Category": "Commerce",
+  "LicenseTypes": [
+    "Free"
+  ],
+  "DocumentationUrl": "https://github.com/mattswain85/Umbraco.Commerce.ShippingProviders.FedEx/",
+  "IssueTrackerUrl": "https://github.com/mattswain85/Umbraco.Commerce.ShippingProviders.FedEx/issues",
+  "PackageType": "Package",
+  "RelatedPackages": [
+    {
+      "PackageId": "Umbraco.Commerce",
+      "Description": "The ecommerce solution by Umbraco HQ"
+    },
+    {
+      "PackageId": "Umbraco.Commerce.Checkout",
+      "Description": "A drop in checkout solution for Umbraco Commerce."
+    }
+  ],
+  "Tags": [
+    "umbraco",
+    "ecommerce",
+    "shippingprovider"
+  ]
+}

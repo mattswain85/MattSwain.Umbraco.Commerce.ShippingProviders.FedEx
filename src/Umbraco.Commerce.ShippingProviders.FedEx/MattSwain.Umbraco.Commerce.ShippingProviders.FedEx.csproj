@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <PackageId>MattSwain.Umbraco.Commerce.ShippingProviders.FedEx</PackageId>
+    <Product>MattSwain.Umbraco.Commerce.ShippingProviders.FedEx</Product>
+    <Title>Umbraco Commerce FedEx Shipping Provider</Title>
+    <Description>FedEx shipping provider for Umbraco Commerce</Description>
+    <StaticWebAssetBasePath>App_Plugins/UmbracoCommerceShippingProvidersFedEx</StaticWebAssetBasePath>
+    <Nullable>enable</Nullable>
+    <TargetFramework>net9.0</TargetFramework>
+    <Version>0.0.1</Version>
+    <PackageReadmeFile>NUGET.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/mattswain85/Umbraco.Commerce.ShippingProviders.FedEx</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mattswain85/Umbraco.Commerce.ShippingProviders.FedEx</RepositoryUrl>
+    <Copyright>2025 © Matt Swain</Copyright>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageTags>umbraco;umbraco-marketplace;ECommerce;Shipping;ShippingProviders;FedEx</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Http" />
+    <PackageReference Include="Umbraco.Commerce.Core" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="NUGET.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="copy &quot;..\..\README.md&quot; NUGET.md" />
+    <Exec Command="copy &quot;..\..\logo.png&quot; logo.png" />
+  </Target>
+
+</Project>
