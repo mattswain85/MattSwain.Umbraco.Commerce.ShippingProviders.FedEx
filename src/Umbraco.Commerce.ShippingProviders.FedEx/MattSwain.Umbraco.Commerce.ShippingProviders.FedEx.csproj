@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <PackageId>MattSwain.Umbraco.Commerce.ShippingProviders.FedEx</PackageId>
-    <Product>MattSwain.Umbraco.Commerce.ShippingProviders.FedEx</Product>
+    <PackageId>MattSwain.Umbraco.FedExShippingProvider</PackageId>
+    <Product>MattSwain.Umbraco.FedExShippingProvider</Product>
     <Title>Umbraco Commerce FedEx Shipping Provider</Title>
     <Description>FedEx shipping provider for Umbraco Commerce</Description>
     <StaticWebAssetBasePath>App_Plugins/UmbracoCommerceShippingProvidersFedEx</StaticWebAssetBasePath>
