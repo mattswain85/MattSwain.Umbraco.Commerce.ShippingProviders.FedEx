@@ -8,7 +8,7 @@
     <StaticWebAssetBasePath>App_Plugins/UmbracoCommerceShippingProvidersFedEx</StaticWebAssetBasePath>
     <Nullable>enable</Nullable>
     <TargetFramework>net9.0</TargetFramework>
-    <Version>15.0.0</Version>
+    <Version>15.0.1</Version>
     <PackageReadmeFile>NUGET.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/mattswain85/MattSwain.Umbraco.Commerce.ShippingProviders.FedEx</PackageProjectUrl>
