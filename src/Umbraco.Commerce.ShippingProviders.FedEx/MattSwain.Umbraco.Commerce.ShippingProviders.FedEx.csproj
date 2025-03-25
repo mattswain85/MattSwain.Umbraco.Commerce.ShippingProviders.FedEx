@@ -11,11 +11,11 @@
     <Version>0.0.1</Version>
     <PackageReadmeFile>NUGET.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/mattswain85/Umbraco.Commerce.ShippingProviders.FedEx</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/mattswain85/Umbraco.Commerce.ShippingProviders.FedEx</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/mattswain85/MattSwain.Umbraco.Commerce.ShippingProviders.FedEx</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mattswain85/MattSwain.Umbraco.Commerce.ShippingProviders.FedEx</RepositoryUrl>
     <Copyright>2025 © Matt Swain</Copyright>
     <PackageIcon>logo.png</PackageIcon>
-    <PackageTags>umbraco;umbraco-marketplace;ECommerce;Shipping;ShippingProviders;FedEx</PackageTags>
+    <PackageTags>ECommerce;Shipping;ShippingProviders;FedEx</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
